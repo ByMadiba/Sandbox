@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-20T13:14:37.955Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="vqBWESKIIvI6diQJqYKQ" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-20T14:28:39.373Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="vaOmME8iNxpLCNkxsk-b" version="23.1.5" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="2646" dy="1436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3012" dy="1641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -65,8 +65,11 @@
         <mxCell id="_zM-YDJ3qmBeB4hZ0uHO-55" value="CFG updates file as new records arrive" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="156.32999999999998" y="406.5" width="307.37" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="_zM-YDJ3qmBeB4hZ0uHO-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.095;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="13" target="_zM-YDJ3qmBeB4hZ0uHO-64" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="_zM-YDJ3qmBeB4hZ0uHO-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.095;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.885;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140.19999999999982" y="750" as="sourcePoint" />
+            <mxPoint x="-553.8000000000002" y="750" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="UXoPM91XF1K50CHm7Cyn-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.905;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.905;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="_zM-YDJ3qmBeB4hZ0uHO-59" target="3">
           <mxGeometry relative="1" as="geometry">
@@ -81,16 +84,24 @@
           <mxGeometry x="420" y="880" width="360" height="120" as="geometry" />
         </mxCell>
         <mxCell id="_zM-YDJ3qmBeB4hZ0uHO-64" value="IDP:&lt;br&gt;snd_FILE_IDP_MultiMarket_ClientReferenceDataFiles" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-330" y="880" width="410" height="140" as="geometry" />
+          <mxGeometry x="-1020" y="665" width="520" height="170" as="geometry" />
         </mxCell>
         <mxCell id="UXoPM91XF1K50CHm7Cyn-44" value="CFG Publishes to Source Folder&lt;br&gt;machineName\ClientFiles\" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
           <mxGeometry x="-140" y="540" width="259.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="UXoPM91XF1K50CHm7Cyn-54" value="start EOD" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-859.62" y="-340" width="120" height="30" as="geometry" />
+          <mxGeometry x="-859.62" y="-373" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UXoPM91XF1K50CHm7Cyn-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UXoPM91XF1K50CHm7Cyn-55" target="UXoPM91XF1K50CHm7Cyn-58">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-800" y="-100" />
+              <mxPoint x="-800" y="-100" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="UXoPM91XF1K50CHm7Cyn-55" value="MDS:&amp;nbsp;&lt;div&gt;Runs EOD batches that generate updated data for the client files&lt;/div&gt;" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1030" y="-240" width="464.76" height="100" as="geometry" />
+          <mxGeometry x="-1032" y="-240" width="464.76" height="100" as="geometry" />
         </mxCell>
         <mxCell id="UXoPM91XF1K50CHm7Cyn-58" value="Denodo Scheduler:&amp;nbsp;&lt;br&gt;Reads MDS and generates files" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1039.62" y="-80" width="480" height="100" as="geometry" />
@@ -101,31 +112,34 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="UXoPM91XF1K50CHm7Cyn-65" value="BizTalk:&lt;br&gt;rcv_FILE_EDAL_ClientFiles&lt;br&gt;Recieves from Share:&amp;nbsp;&lt;br&gt;\\MachineName\Scheduler Exports\MIT Client Files - Biztalk" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1060" y="80" width="490" height="106.5" as="geometry" />
+          <mxGeometry x="-1065.24" y="80" width="500" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="UXoPM91XF1K50CHm7Cyn-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.849;exitY=0.742;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.095;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UXoPM91XF1K50CHm7Cyn-65" target="3">
+        <mxCell id="UXoPM91XF1K50CHm7Cyn-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.942;exitY=0.382;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.095;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UXoPM91XF1K50CHm7Cyn-65" target="3">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-662.9724999999999" y="610.3200000000002" as="sourcePoint" />
             <mxPoint x="166.94600000000037" y="159.99999999999977" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-598" y="159" />
+              <mxPoint x="-589" y="160" />
+              <mxPoint x="-520" y="160" />
+              <mxPoint x="160" y="159" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="UXoPM91XF1K50CHm7Cyn-73" style="fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;exitX=0.529;exitY=1.042;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.065;entryY=0.605;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="_zM-YDJ3qmBeB4hZ0uHO-64" source="UXoPM91XF1K50CHm7Cyn-65">
+        <mxCell id="UXoPM91XF1K50CHm7Cyn-73" style="fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;exitX=0.529;exitY=1.042;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.365;entryY=0.029;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-799.9499999999999" y="506.50049999999993" as="sourcePoint" />
-            <mxPoint x="-800" y="1011.1429268973214" as="targetPoint" />
+            <mxPoint x="-843.9299999999998" y="309.00000000000006" as="sourcePoint" />
+            <mxPoint x="-840.2000000000003" y="668.9299999999998" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-800" y="970" />
+              <mxPoint x="-843" y="549" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="UXoPM91XF1K50CHm7Cyn-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.478;entryY=-0.036;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UXoPM91XF1K50CHm7Cyn-54" target="UXoPM91XF1K50CHm7Cyn-55">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="UXoPM91XF1K50CHm7Cyn-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.53;entryY=0.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UXoPM91XF1K50CHm7Cyn-55" target="UXoPM91XF1K50CHm7Cyn-58">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="UXoPM91XF1K50CHm7Cyn-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.497;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.488;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="UXoPM91XF1K50CHm7Cyn-54" target="UXoPM91XF1K50CHm7Cyn-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-801" y="-324" as="sourcePoint" />
+            <mxPoint x="-801" y="-264" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
