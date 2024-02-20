@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-02-20T12:52:09.636Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="HxnSBX6IzX3YqjBjNEGI" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-20T12:52:57.636Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="SFQ8BkSqoOpVhCmX1llD" version="23.1.5" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="3012" dy="1641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="start" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
-          <mxGeometry x="250.01" y="-20" width="120" height="30" as="geometry" />
+        <mxCell id="2" value="start SOD &amp;amp; INTRA" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
+          <mxGeometry x="250.01" y="-20" width="119.99" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3" value="ClientFile&lt;br&gt;Share:&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;machineName\\ClientFiles\%SourceFileName%" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="125.26" y="110" width="369.5" height="100" as="geometry" />
@@ -86,7 +86,7 @@
         <mxCell id="UXoPM91XF1K50CHm7Cyn-44" value="CFG Publishes to Source Folder&lt;br&gt;machineName\ClientFiles\" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
           <mxGeometry x="-140" y="540" width="259.5" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="UXoPM91XF1K50CHm7Cyn-54" value="start" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+        <mxCell id="UXoPM91XF1K50CHm7Cyn-54" value="start EOD" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
           <mxGeometry x="-859.62" y="-20" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UXoPM91XF1K50CHm7Cyn-55" value="MDS:&amp;nbsp;&lt;div&gt;Runs EOD batches that generate updated data for the client files&lt;/div&gt;" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
