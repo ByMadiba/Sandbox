@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-23T13:05:24.379Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="1kGenUR9dLYfCg_oGy4n" version="23.1.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-02-23T13:09:45.122Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="pOZVkFbqnIn-TXL20BIT" version="23.1.5" type="github" pages="3">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="3628" dy="1397" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="4683" dy="1863" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -125,22 +125,22 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="OBCTwPRaMiT9IOM7gG2h-5" value="IDP:&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;ClientFiles&lt;br&gt;\\MachineName\Distribution\Derivatives Market (ETE)&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-560" y="390" width="330" height="70" as="geometry" />
+          <mxGeometry x="-680" y="398" width="330" height="70" as="geometry" />
         </mxCell>
         <mxCell id="OBCTwPRaMiT9IOM7gG2h-6" value="ClientFile&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;Share:&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;machineName\\ClientFiles\%SourceFileName%&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1480" y="390" width="270" height="70" as="geometry" />
+          <mxGeometry x="-1600" y="398" width="270" height="70" as="geometry" />
         </mxCell>
         <mxCell id="OBCTwPRaMiT9IOM7gG2h-7" value="Service Publishes (copies) to Share&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;machineName\ClientFilesPublish\&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1150" y="390" width="220" height="70" as="geometry" />
+          <mxGeometry x="-1270" y="398" width="220" height="70" as="geometry" />
         </mxCell>
         <mxCell id="OBCTwPRaMiT9IOM7gG2h-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OBCTwPRaMiT9IOM7gG2h-13" target="OBCTwPRaMiT9IOM7gG2h-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OBCTwPRaMiT9IOM7gG2h-13" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-780" y="-318" width="770" height="418" as="geometry" />
+          <mxGeometry x="-900" y="-310" width="770" height="418" as="geometry" />
         </mxCell>
         <mxCell id="OBCTwPRaMiT9IOM7gG2h-15" value="BizTalk:&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;rcv_FILE_TIS_IntradayInstrument_ClientFile&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;rcv_IntradayInstrument_ClientFile&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;Recieves from Share:&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;machineName\\ClientFilesPublish\*.csv&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-530" y="-290" width="320" height="110" as="geometry" />
+          <mxGeometry x="-650" y="-282" width="320" height="110" as="geometry" />
         </mxCell>
         <mxCell id="OBCTwPRaMiT9IOM7gG2h-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OBCTwPRaMiT9IOM7gG2h-17" target="OBCTwPRaMiT9IOM7gG2h-6">
           <mxGeometry relative="1" as="geometry" />
@@ -149,47 +149,102 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OBCTwPRaMiT9IOM7gG2h-17" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1390" y="-320" width="410" height="530" as="geometry" />
+          <mxGeometry x="-1510" y="-312" width="410" height="530" as="geometry" />
         </mxCell>
         <mxCell id="OBCTwPRaMiT9IOM7gG2h-18" value="TIS" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1240" y="-380" width="84.99" height="32.01" as="geometry" />
+          <mxGeometry x="-1360" y="-372" width="84.99" height="32.01" as="geometry" />
         </mxCell>
         <mxCell id="OBCTwPRaMiT9IOM7gG2h-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OBCTwPRaMiT9IOM7gG2h-20" target="OBCTwPRaMiT9IOM7gG2h-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OBCTwPRaMiT9IOM7gG2h-20" value="Client File Generator loads to cache" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1301.31" y="-290" width="212.62" height="55" as="geometry" />
+          <mxGeometry x="-1421.31" y="-282" width="212.62" height="55" as="geometry" />
         </mxCell>
         <mxCell id="OBCTwPRaMiT9IOM7gG2h-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OBCTwPRaMiT9IOM7gG2h-22" target="OBCTwPRaMiT9IOM7gG2h-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OBCTwPRaMiT9IOM7gG2h-22" value="Receives new intraday instrument" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1305.31" y="-180" width="220" height="70" as="geometry" />
+          <mxGeometry x="-1425.31" y="-172" width="220" height="70" as="geometry" />
         </mxCell>
         <mxCell id="OBCTwPRaMiT9IOM7gG2h-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OBCTwPRaMiT9IOM7gG2h-24" target="OBCTwPRaMiT9IOM7gG2h-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OBCTwPRaMiT9IOM7gG2h-24" value="Awaits MDS to master instrument" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1305.69" y="-50" width="220" height="70" as="geometry" />
+          <mxGeometry x="-1425.69" y="-42" width="220" height="70" as="geometry" />
         </mxCell>
         <mxCell id="OBCTwPRaMiT9IOM7gG2h-25" value="Writes mastered instrument to client file" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1330" y="90" width="270" height="60" as="geometry" />
+          <mxGeometry x="-1450" y="98" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OBCTwPRaMiT9IOM7gG2h-30" value="BizTalk" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-445" y="-388" width="120" height="30" as="geometry" />
+          <mxGeometry x="-565" y="-380" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OBCTwPRaMiT9IOM7gG2h-11" value="BizTalk:&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;snd_FILE_TIS_ClientFiles_Derivatives&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;Send to Share:&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;machineName\\ClientFiles\%SourceFileName%&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-370" y="-90" width="330" height="110" as="geometry" />
+          <mxGeometry x="-490" y="-82" width="330" height="110" as="geometry" />
         </mxCell>
         <mxCell id="OBCTwPRaMiT9IOM7gG2h-12" value="IDP:&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;snd_FILE_IDP_MultiMarket_ClientReferenceDataFiles&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-740" y="-90" width="360" height="110" as="geometry" />
+          <mxGeometry x="-860" y="-82" width="360" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="OBCTwPRaMiT9IOM7gG2h-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="OBCTwPRaMiT9IOM7gG2h-7" target="OBCTwPRaMiT9IOM7gG2h-15">
+        <mxCell id="OBCTwPRaMiT9IOM7gG2h-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OBCTwPRaMiT9IOM7gG2h-7" target="OBCTwPRaMiT9IOM7gG2h-13">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-830" y="425" />
-              <mxPoint x="-830" y="-239" />
+              <mxPoint x="-950" y="433" />
+              <mxPoint x="-950" y="-231" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="2t1u743xaUfbhlRa-BTA" name="EOD">
+    <mxGraphModel dx="3543" dy="1914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="U2UaY5rNGRCvj6f6GSFG-1" value="MDS" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1653.5" y="-1020" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U2UaY5rNGRCvj6f6GSFG-2" value="Denodo Scheduler:&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;Reads MDS&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;Generates files&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1363.5" y="-885" width="150" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="vfwj8OEhvthErP8dlwNI-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="U2UaY5rNGRCvj6f6GSFG-3" target="U2UaY5rNGRCvj6f6GSFG-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U2UaY5rNGRCvj6f6GSFG-3" value="MDS:&amp;nbsp;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Runs EOD batches&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Generate updated data for the client files&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1690" y="-885" width="240" height="63.5" as="geometry" />
+        </mxCell>
+        <mxCell id="U2UaY5rNGRCvj6f6GSFG-4" value="Denodo" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1363.5" y="-1020" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QcQsd7n9vR0BCATxKmXv-1" value="IDP:&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;ClientFiles&lt;br&gt;\\MachineName\Distribution\Derivatives Market (ETE)&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1280" y="-240" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QcQsd7n9vR0BCATxKmXv-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QcQsd7n9vR0BCATxKmXv-3" target="QcQsd7n9vR0BCATxKmXv-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vfwj8OEhvthErP8dlwNI-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QcQsd7n9vR0BCATxKmXv-3" target="vfwj8OEhvthErP8dlwNI-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QcQsd7n9vR0BCATxKmXv-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1070" y="-950" width="770" height="418" as="geometry" />
+        </mxCell>
+        <mxCell id="QcQsd7n9vR0BCATxKmXv-4" value="BizTalk:&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;rcv_FILE_TIS_IntradayInstrument_ClientFile&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;rcv_IntradayInstrument_ClientFile&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;Recieves from Share:&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;machineName\\ClientFilesPublish\*.csv&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-820" y="-922" width="320" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="QcQsd7n9vR0BCATxKmXv-5" value="BizTalk" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-735" y="-1020" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QcQsd7n9vR0BCATxKmXv-6" value="BizTalk:&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;snd_FILE_TIS_ClientFiles_Derivatives&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;Send to Share:&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;machineName\\ClientFiles\%SourceFileName%&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-660" y="-722" width="330" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="QcQsd7n9vR0BCATxKmXv-7" value="IDP:&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;snd_FILE_IDP_MultiMarket_ClientReferenceDataFiles&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1030" y="-722" width="360" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="vfwj8OEhvthErP8dlwNI-1" value="ClientFile&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;Share:&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;machineName\\ClientFiles\%SourceFileName%&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="-240" width="345" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vfwj8OEhvthErP8dlwNI-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U2UaY5rNGRCvj6f6GSFG-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1070" y="-853" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
