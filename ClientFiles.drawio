@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-23T13:04:53.401Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="ai7Aouj0k-LYdNJN-KAa" version="23.1.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-02-23T13:05:24.379Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="1kGenUR9dLYfCg_oGy4n" version="23.1.5" type="github" pages="2">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="3628" dy="1397" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -133,8 +133,11 @@
         <mxCell id="OBCTwPRaMiT9IOM7gG2h-7" value="Service Publishes (copies) to Share&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;machineName\ClientFilesPublish\&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1150" y="390" width="220" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="OBCTwPRaMiT9IOM7gG2h-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OBCTwPRaMiT9IOM7gG2h-13" target="OBCTwPRaMiT9IOM7gG2h-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="OBCTwPRaMiT9IOM7gG2h-13" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-760" y="-318" width="750" height="418" as="geometry" />
+          <mxGeometry x="-780" y="-318" width="770" height="418" as="geometry" />
         </mxCell>
         <mxCell id="OBCTwPRaMiT9IOM7gG2h-15" value="BizTalk:&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;rcv_FILE_TIS_IntradayInstrument_ClientFile&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;rcv_IntradayInstrument_ClientFile&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;Recieves from Share:&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;machineName\\ClientFilesPublish\*.csv&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-530" y="-290" width="320" height="110" as="geometry" />
@@ -187,12 +190,6 @@
               <mxPoint x="-830" y="425" />
               <mxPoint x="-830" y="-239" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="OBCTwPRaMiT9IOM7gG2h-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.556;entryY=-0.019;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-386" y="100" as="sourcePoint" />
-            <mxPoint x="-377.5199999999995" y="388.6700000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
