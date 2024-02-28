@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-28T16:15:11.637Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="Rh7LWSSaQO9EXJRAnjuX" version="23.1.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-02-28T20:45:07.066Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="4qbpo8UqntKjaYTyjk6E" version="23.1.6" type="github" pages="2">
   <diagram name="Overview" id="rsdPZ2R_34K4D2moBG7r">
     <mxGraphModel dx="2368" dy="1811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -202,25 +202,15 @@
         <mxCell id="kWRbiz1iWP3_9c4-U1YJ-15" value="Submit Credit&lt;br&gt;instructions" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
           <mxGeometry x="-796.25" y="-150" width="135" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kWRbiz1iWP3_9c4-U1YJ-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.632;entryY=-0.032;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kWRbiz1iWP3_9c4-U1YJ-16" target="kWRbiz1iWP3_9c4-U1YJ-23">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-290" y="200" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kWRbiz1iWP3_9c4-U1YJ-49" value="No Funding&lt;br&gt;Required" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kWRbiz1iWP3_9c4-U1YJ-39">
-          <mxGeometry x="-0.5802" y="3" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="kWRbiz1iWP3_9c4-U1YJ-16" value="Check if Funding&amp;nbsp;&lt;br&gt;is required&lt;br&gt;i.e. Credits &amp;gt; Debits" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-829.25" y="-39" width="200" height="109" as="geometry" />
         </mxCell>
-        <mxCell id="kWRbiz1iWP3_9c4-U1YJ-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kWRbiz1iWP3_9c4-U1YJ-21">
+        <mxCell id="kWRbiz1iWP3_9c4-U1YJ-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kWRbiz1iWP3_9c4-U1YJ-21" target="kWRbiz1iWP3_9c4-U1YJ-29">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-780.6688888888889" y="161" as="targetPoint" />
+            <mxPoint x="-1000" y="170" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-999" y="321" />
-              <mxPoint x="-999" y="161" />
+              <mxPoint x="-999" y="330" />
+              <mxPoint x="-999" y="170" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -229,27 +219,22 @@
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kWRbiz1iWP3_9c4-U1YJ-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kWRbiz1iWP3_9c4-U1YJ-21" target="kWRbiz1iWP3_9c4-U1YJ-23">
+        <mxCell id="kWRbiz1iWP3_9c4-U1YJ-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kWRbiz1iWP3_9c4-U1YJ-21">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-577.75" y="321" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kWRbiz1iWP3_9c4-U1YJ-48" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kWRbiz1iWP3_9c4-U1YJ-46">
-          <mxGeometry x="-0.4906" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-581.0000000000005" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="kWRbiz1iWP3_9c4-U1YJ-21" value="Check Funding&amp;nbsp;&lt;br&gt;Message&lt;br&gt;received" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-800.25" y="271" width="142.5" height="100" as="geometry" />
+          <mxGeometry x="-800.25" y="280" width="142.5" height="100" as="geometry" />
         </mxCell>
         <mxCell id="kWRbiz1iWP3_9c4-U1YJ-23" value="Release (submit)&lt;br&gt;Debit instructions" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-          <mxGeometry x="-400" y="282.5" width="174" height="77" as="geometry" />
+          <mxGeometry x="-420" y="724" width="174" height="77" as="geometry" />
         </mxCell>
         <mxCell id="kWRbiz1iWP3_9c4-U1YJ-24" value="End Status:Pass" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-778.25" y="549" width="100" height="60" as="geometry" />
+          <mxGeometry x="-778.25" y="693" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kWRbiz1iWP3_9c4-U1YJ-25" value="End Status:FailedContinue" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-190" y="420" width="130" height="60" as="geometry" />
+          <mxGeometry x="-190" y="564" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kWRbiz1iWP3_9c4-U1YJ-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kWRbiz1iWP3_9c4-U1YJ-27" target="kWRbiz1iWP3_9c4-U1YJ-36">
           <mxGeometry relative="1" as="geometry" />
@@ -294,6 +279,14 @@
         </mxCell>
         <mxCell id="kWRbiz1iWP3_9c4-U1YJ-37" value="Hold&amp;nbsp; Debit&lt;br&gt;Instructions" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
           <mxGeometry x="-493.25" y="-270" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kWRbiz1iWP3_9c4-U1YJ-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kWRbiz1iWP3_9c4-U1YJ-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-455" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kWRbiz1iWP3_9c4-U1YJ-55" value="Check for Payment Notifications" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="-590" y="280" width="270" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
