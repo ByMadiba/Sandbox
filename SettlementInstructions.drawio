@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-28T20:54:21.736Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="Ta-BWBUsjh_UAMtJG_4V" version="23.1.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-02-28T20:55:50.521Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="jBD7VXg_IaZPW-H-FIKV" version="23.1.6" type="github" pages="2">
   <diagram name="Overview" id="rsdPZ2R_34K4D2moBG7r">
     <mxGraphModel dx="2368" dy="1811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -145,7 +145,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9gz5W8VeIskbhB9NFHHX" name="Detailed">
-    <mxGraphModel dx="4567" dy="2442" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3313" dy="1855" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -202,6 +202,19 @@
         <mxCell id="kWRbiz1iWP3_9c4-U1YJ-15" value="Submit Credit&lt;br&gt;instructions" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
           <mxGeometry x="-796.25" y="-150" width="135" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="kWRbiz1iWP3_9c4-U1YJ-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kWRbiz1iWP3_9c4-U1YJ-16" target="kWRbiz1iWP3_9c4-U1YJ-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="15.500000000000455" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-140" y="16" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kWRbiz1iWP3_9c4-U1YJ-83" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kWRbiz1iWP3_9c4-U1YJ-81">
+          <mxGeometry x="-0.9061" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="kWRbiz1iWP3_9c4-U1YJ-16" value="Check if Funding&amp;nbsp;&lt;br&gt;is required&lt;br&gt;i.e. Credits &amp;gt; Debits" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-829.25" y="-39" width="200" height="109" as="geometry" />
         </mxCell>
@@ -251,7 +264,7 @@
         <mxCell id="kWRbiz1iWP3_9c4-U1YJ-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.506;entryY=-0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kWRbiz1iWP3_9c4-U1YJ-16" target="kWRbiz1iWP3_9c4-U1YJ-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kWRbiz1iWP3_9c4-U1YJ-31" value="Funding Required" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kWRbiz1iWP3_9c4-U1YJ-30">
+        <mxCell id="kWRbiz1iWP3_9c4-U1YJ-31" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kWRbiz1iWP3_9c4-U1YJ-30">
           <mxGeometry x="-0.6479" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
