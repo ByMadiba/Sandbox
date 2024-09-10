@@ -87,6 +87,9 @@
         <mxCell id="svesNTuI8DquraHskqe9-6" value="snd_MSMQ_BTS_Dis_Incoming" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="469" y="37" width="195" height="55" as="geometry" />
         </mxCell>
+        <mxCell id="svesNTuI8DquraHskqe9-8" value="SWIFT_DIS_INCOMING" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="130" width="133" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
