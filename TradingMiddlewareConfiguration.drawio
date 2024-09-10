@@ -1,9 +1,39 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.10">
   <diagram name="Page-1" id="1pZSXHmKr5Nfc_n-IK5t">
-    <mxGraphModel>
+    <mxGraphModel dx="794" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="95a7sz2U-xMyoS_5AW7V-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="95a7sz2U-xMyoS_5AW7V-1" target="95a7sz2U-xMyoS_5AW7V-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="95a7sz2U-xMyoS_5AW7V-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="95a7sz2U-xMyoS_5AW7V-1" target="95a7sz2U-xMyoS_5AW7V-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="95a7sz2U-xMyoS_5AW7V-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="95a7sz2U-xMyoS_5AW7V-1" target="95a7sz2U-xMyoS_5AW7V-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="95a7sz2U-xMyoS_5AW7V-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="95a7sz2U-xMyoS_5AW7V-1" target="95a7sz2U-xMyoS_5AW7V-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="95a7sz2U-xMyoS_5AW7V-1" value="recieve port:&amp;nbsp;&lt;div&gt;rcv_Nutron_UNEXCor&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="70" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="95a7sz2U-xMyoS_5AW7V-3" value="rcv_MSMQ_LUTL" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="35" y="225" width="135" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="95a7sz2U-xMyoS_5AW7V-6" value="rcv_MSMQ_UNEXCor&lt;div&gt;_Resubmission&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="220" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="95a7sz2U-xMyoS_5AW7V-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.573;exitY=1.01;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="95a7sz2U-xMyoS_5AW7V-1" target="95a7sz2U-xMyoS_5AW7V-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="150" as="sourcePoint" />
+            <mxPoint x="113" y="235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95a7sz2U-xMyoS_5AW7V-9" value="Send Ports:&amp;nbsp;&lt;div&gt;snd_MSMQ_Strate_outgoing_MT540&lt;br&gt;&lt;/div&gt;&lt;div&gt;snd_MSMQ_Strate_outgoing_MT541&lt;br&gt;&lt;/div&gt;&lt;div&gt;snd_MSMQ_Strate_outgoing_MT542&lt;br&gt;&lt;/div&gt;&lt;div&gt;snd_MSMQ_Strate_outgoing_MT543&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="75" width="325" height="85" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
