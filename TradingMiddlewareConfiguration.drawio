@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.10">
-  <diagram name="Page-1" id="1pZSXHmKr5Nfc_n-IK5t">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.10" pages="2">
+  <diagram name="STT-Strate" id="1pZSXHmKr5Nfc_n-IK5t">
     <mxGraphModel dx="794" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -31,8 +31,61 @@
             <mxPoint x="113" y="235" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="95a7sz2U-xMyoS_5AW7V-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="95a7sz2U-xMyoS_5AW7V-9" target="95a7sz2U-xMyoS_5AW7V-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="95a7sz2U-xMyoS_5AW7V-9" value="Send Ports:&amp;nbsp;&lt;div&gt;snd_MSMQ_Strate_outgoing_MT540&lt;br&gt;&lt;/div&gt;&lt;div&gt;snd_MSMQ_Strate_outgoing_MT541&lt;br&gt;&lt;/div&gt;&lt;div&gt;snd_MSMQ_Strate_outgoing_MT542&lt;br&gt;&lt;/div&gt;&lt;div&gt;snd_MSMQ_Strate_outgoing_MT543&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="365" y="75" width="325" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="95a7sz2U-xMyoS_5AW7V-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="95a7sz2U-xMyoS_5AW7V-11" target="95a7sz2U-xMyoS_5AW7V-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="95a7sz2U-xMyoS_5AW7V-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="95a7sz2U-xMyoS_5AW7V-11" target="95a7sz2U-xMyoS_5AW7V-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="95a7sz2U-xMyoS_5AW7V-11" value="rcv_BTS_Dis_Outgoing" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="81.25" width="142.5" height="72.5" as="geometry" />
+        </mxCell>
+        <mxCell id="95a7sz2U-xMyoS_5AW7V-13" value="rcv_MSMQ_BTS_&lt;div&gt;Dis_Outgoing&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="775.63" y="217.5" width="151.25" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="95a7sz2U-xMyoS_5AW7V-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="95a7sz2U-xMyoS_5AW7V-15" target="95a7sz2U-xMyoS_5AW7V-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="95a7sz2U-xMyoS_5AW7V-15" value="snd_MQS_Strate_Dis_Outgoing" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1002.5" y="81.25" width="207.5" height="58.75" as="geometry" />
+        </mxCell>
+        <mxCell id="95a7sz2U-xMyoS_5AW7V-17" value="Strate" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1333.75" y="80.625" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="T9dFPwZRJtBj6tpxaHCb" name="Page-2">
+    <mxGraphModel dx="794" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="svesNTuI8DquraHskqe9-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="svesNTuI8DquraHskqe9-1" target="svesNTuI8DquraHskqe9-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="svesNTuI8DquraHskqe9-1" value="Strate" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="svesNTuI8DquraHskqe9-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="svesNTuI8DquraHskqe9-2" target="svesNTuI8DquraHskqe9-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="svesNTuI8DquraHskqe9-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="svesNTuI8DquraHskqe9-2" target="svesNTuI8DquraHskqe9-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="svesNTuI8DquraHskqe9-2" value="rcv_Strate_Dis_&lt;span style=&quot;background-color: initial;&quot;&gt;Incoming&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="40" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="svesNTuI8DquraHskqe9-4" value="rcv_MQS_Strate_Dis_Incoming" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="180" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="svesNTuI8DquraHskqe9-6" value="snd_MSMQ_BTS_Dis_Incoming" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="469" y="37" width="195" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
