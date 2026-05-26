@@ -106,7 +106,7 @@
           <mxGeometry height="60" width="120" x="1155" y="80" as="geometry" />
         </mxCell>
         <mxCell id="nTTbgRuBzPkN7sip1F6B-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Settlement Bank" vertex="1">
-          <mxGeometry height="60" width="120" x="1570" y="80" as="geometry" />
+          <mxGeometry height="60" width="120" x="1400" y="80" as="geometry" />
         </mxCell>
         <mxCell id="nTTbgRuBzPkN7sip1F6B-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="CIS:&lt;div&gt;ClearingVault&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="203.5" y="80" as="geometry" />
@@ -211,7 +211,7 @@
           <mxGeometry height="40" width="195" x="1155" y="402" as="geometry" />
         </mxCell>
         <mxCell id="bEC8oE7Xt8TAvtwxJgBm-32" parent="1" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" value="" vertex="1">
-          <mxGeometry height="20" width="20" x="1510" y="440" as="geometry" />
+          <mxGeometry height="20" width="20" x="1660" y="412" as="geometry" />
         </mxCell>
         <mxCell id="bEC8oE7Xt8TAvtwxJgBm-39" edge="1" parent="1" source="bEC8oE7Xt8TAvtwxJgBm-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bEC8oE7Xt8TAvtwxJgBm-9">
           <mxGeometry relative="1" as="geometry" />
