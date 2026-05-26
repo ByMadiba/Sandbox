@@ -1,17 +1,17 @@
 <mxfile host="app.diagrams.net">
-  <diagram name="Page-1" id="vidGpl-5MFJZR5KmYKjs">
-    <mxGraphModel dx="1406" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram name="GetSettementInstructions" id="vidGpl-5MFJZR5KmYKjs">
+    <mxGraphModel dx="2256" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Y7hr2lu_-T20AjTg2ncd-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="RTC" vertex="1">
-          <mxGeometry height="60" width="120" x="70" y="80" as="geometry" />
+          <mxGeometry height="60" width="160" y="80" as="geometry" />
         </mxCell>
         <mxCell id="Y7hr2lu_-T20AjTg2ncd-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="CIS:&lt;div&gt;Jse.Ei.Clearing.Settlement&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="180" x="510" y="80" as="geometry" />
+          <mxGeometry height="60" width="180" x="600" y="80" as="geometry" />
         </mxCell>
         <mxCell id="Y7hr2lu_-T20AjTg2ncd-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="CIS:&lt;div&gt;Jse.Ei.Clearing.EODProcessMonitor&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="210" x="260" y="80" as="geometry" />
+          <mxGeometry height="60" width="200" x="280" y="80" as="geometry" />
         </mxCell>
         <mxCell id="Y7hr2lu_-T20AjTg2ncd-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="BizTalk&lt;div&gt;Jse.Ei.Clearing.Settlement&lt;/div&gt;&lt;div&gt;Jse.Ei.Swift.Router&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="180" x="1042" y="80" as="geometry" />
@@ -32,37 +32,37 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="t7a2u7lnhrg4pLDZo-nx-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="RTC transmits the GeneratePaymentInstructions event" vertex="1">
-          <mxGeometry height="110" width="135" x="50" y="180" as="geometry" />
+          <mxGeometry height="110" width="205" x="-10" y="175" as="geometry" />
         </mxCell>
         <mxCell id="t7a2u7lnhrg4pLDZo-nx-18" edge="1" parent="1" source="t7a2u7lnhrg4pLDZo-nx-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="t7a2u7lnhrg4pLDZo-nx-17" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="t7a2u7lnhrg4pLDZo-nx-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Triggers the settlement instructions retrieval" vertex="1">
-          <mxGeometry height="60" width="135" x="280" y="205" as="geometry" />
+          <mxGeometry height="60" width="135" x="317.5" y="200" as="geometry" />
         </mxCell>
         <mxCell id="t7a2u7lnhrg4pLDZo-nx-20" edge="1" parent="1" source="t7a2u7lnhrg4pLDZo-nx-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="t7a2u7lnhrg4pLDZo-nx-19" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="t7a2u7lnhrg4pLDZo-nx-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=light-dark(default, #1c1c1c);" value="Sends a GetSettlementInstructionsReq msg to Settlement via MSMQ&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="110" width="135" x="280" y="370" as="geometry" />
+          <mxGeometry height="110" width="232.5" x="268.75" y="365" as="geometry" />
         </mxCell>
         <mxCell id="t7a2u7lnhrg4pLDZo-nx-23" edge="1" parent="1" source="t7a2u7lnhrg4pLDZo-nx-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="t7a2u7lnhrg4pLDZo-nx-22" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="t7a2u7lnhrg4pLDZo-nx-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=light-dark(default, #1c1c1c);" value="Sends a GetSettlementInstructionsReq msg to RTC via EMAPI / Tagwire" vertex="1">
-          <mxGeometry height="100" width="185" x="500" y="450" as="geometry" />
+          <mxGeometry height="100" width="185" x="600" y="370" as="geometry" />
         </mxCell>
         <mxCell id="t7a2u7lnhrg4pLDZo-nx-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="CIS:&lt;div&gt;ClearingVault&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="750" y="80" as="geometry" />
+          <mxGeometry height="60" width="120" x="920" y="70" as="geometry" />
         </mxCell>
         <mxCell id="t7a2u7lnhrg4pLDZo-nx-26" edge="1" parent="1" source="t7a2u7lnhrg4pLDZo-nx-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="t7a2u7lnhrg4pLDZo-nx-25" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="t7a2u7lnhrg4pLDZo-nx-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=light-dark(default, #1c1c1c);" value="Sends a GetSettlementInstructionsReq msg to RTC via EMAPI / Tagwire" vertex="1">
-          <mxGeometry height="100" width="185" x="500" y="600" as="geometry" />
+        <mxCell id="t7a2u7lnhrg4pLDZo-nx-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=light-dark(default, #1c1c1c);" value="Converts GetSettlementInstructionsReq msg EMAPI / Tagwire&lt;div&gt;Sends to RTC&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="185" x="600" y="600" as="geometry" />
         </mxCell>
         <mxCell id="t7a2u7lnhrg4pLDZo-nx-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="CIS:&lt;div&gt;Jse.Ei.Batch.PostTrade&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="130" x="900" y="80" as="geometry" />
+          <mxGeometry height="60" width="130" x="980" y="170" as="geometry" />
         </mxCell>
         <mxCell id="t7a2u7lnhrg4pLDZo-nx-28" edge="1" parent="1" source="t7a2u7lnhrg4pLDZo-nx-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="t7a2u7lnhrg4pLDZo-nx-27" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -79,7 +79,7 @@
         <mxCell id="t7a2u7lnhrg4pLDZo-nx-32" edge="1" parent="1" source="t7a2u7lnhrg4pLDZo-nx-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="t7a2u7lnhrg4pLDZo-nx-31" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="t7a2u7lnhrg4pLDZo-nx-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=light-dark(default, #1c1c1c);" value="&lt;div&gt;Validate, enrich $ s&lt;span style=&quot;background-color: initial; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;aves instructions to transactional data vault&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="t7a2u7lnhrg4pLDZo-nx-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=light-dark(default, #1c1c1c);" value="&lt;div&gt;Validate, enrich &amp;amp; s&lt;span style=&quot;background-color: initial; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;aves instructions to transactional data vault&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="100" width="185" x="510" y="780" as="geometry" />
         </mxCell>
         <mxCell id="t7a2u7lnhrg4pLDZo-nx-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=light-dark(default, #1c1c1c);" value="Persists&lt;div&gt;CTD_SettlementInstruction&lt;/div&gt;&lt;div&gt;CTS_SettlementInstructionsLink&lt;/div&gt;" vertex="1">
