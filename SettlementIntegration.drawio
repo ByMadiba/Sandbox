@@ -55,11 +55,35 @@
         <mxCell id="t7a2u7lnhrg4pLDZo-nx-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="CIS:&lt;div&gt;ClearingVault&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="750" y="80" as="geometry" />
         </mxCell>
+        <mxCell id="t7a2u7lnhrg4pLDZo-nx-26" edge="1" parent="1" source="t7a2u7lnhrg4pLDZo-nx-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="t7a2u7lnhrg4pLDZo-nx-25" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="t7a2u7lnhrg4pLDZo-nx-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=light-dark(default, #1c1c1c);" value="Sends a GetSettlementInstructionsReq msg to RTC via EMAPI / Tagwire" vertex="1">
-          <mxGeometry height="100" width="185" x="500" y="630" as="geometry" />
+          <mxGeometry height="100" width="185" x="500" y="600" as="geometry" />
         </mxCell>
         <mxCell id="t7a2u7lnhrg4pLDZo-nx-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="CIS:&lt;div&gt;Jse.Ei.Batch.PostTrade&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="130" x="900" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="t7a2u7lnhrg4pLDZo-nx-28" edge="1" parent="1" source="t7a2u7lnhrg4pLDZo-nx-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="t7a2u7lnhrg4pLDZo-nx-27" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t7a2u7lnhrg4pLDZo-nx-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=light-dark(default, #1c1c1c);" value="Receives GetSettlementInstructionsReq" vertex="1">
+          <mxGeometry height="100" width="185" x="25" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="t7a2u7lnhrg4pLDZo-nx-30" edge="1" parent="1" source="t7a2u7lnhrg4pLDZo-nx-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="t7a2u7lnhrg4pLDZo-nx-29" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t7a2u7lnhrg4pLDZo-nx-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=light-dark(default, #1c1c1c);" value="Sends GetSettlementInstructionsRsp" vertex="1">
+          <mxGeometry height="100" width="185" x="25" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="t7a2u7lnhrg4pLDZo-nx-32" edge="1" parent="1" source="t7a2u7lnhrg4pLDZo-nx-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="t7a2u7lnhrg4pLDZo-nx-31" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t7a2u7lnhrg4pLDZo-nx-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=light-dark(default, #1c1c1c);" value="&lt;div&gt;Validate, enrich $ s&lt;span style=&quot;background-color: initial; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;aves instructions to transactional data vault&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="185" x="510" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="t7a2u7lnhrg4pLDZo-nx-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=light-dark(default, #1c1c1c);" value="Persists&lt;div&gt;CTD_SettlementInstruction&lt;/div&gt;&lt;div&gt;CTS_SettlementInstructionsLink&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="185" x="775" y="780" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
