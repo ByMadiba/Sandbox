@@ -1,0 +1,22 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="vidGpl-5MFJZR5KmYKjs">
+    <mxGraphModel dx="1406" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Y7hr2lu_-T20AjTg2ncd-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="RTC" vertex="1">
+          <mxGeometry height="60" width="120" x="70" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y7hr2lu_-T20AjTg2ncd-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Jse.Ei.Clearing.Settlement" vertex="1">
+          <mxGeometry height="60" width="180" x="245" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y7hr2lu_-T20AjTg2ncd-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Jse.Ei.Clearing.EODProcessMonitor" vertex="1">
+          <mxGeometry height="60" width="120" x="490" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y7hr2lu_-T20AjTg2ncd-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="BizTalk&lt;div&gt;Jse.Ei.Clearing.Settlement&lt;/div&gt;&lt;div&gt;Jse.Ei.Swift.Router&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="910" y="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
