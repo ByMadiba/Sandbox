@@ -83,7 +83,7 @@
           <mxGeometry height="100" width="185" x="510" y="780" as="geometry" />
         </mxCell>
         <mxCell id="t7a2u7lnhrg4pLDZo-nx-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=light-dark(default, #1c1c1c);" value="Persists&lt;div&gt;CTD_SettlementInstruction&lt;/div&gt;&lt;div&gt;CTS_SettlementInstructionsLink&lt;/div&gt;" vertex="1">
-          <mxGeometry height="100" width="185" x="775" y="780" as="geometry" />
+          <mxGeometry height="100" width="185" x="750" y="780" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
