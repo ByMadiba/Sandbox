@@ -88,8 +88,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="ggpJbZoDU4aiFM20gH04" name="Batch-Incoming">
-    <mxGraphModel dx="2256" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram id="ggpJbZoDU4aiFM20gH04" name="Batch-IncomingPay">
+    <mxGraphModel dx="2504" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -398,7 +398,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="AmqmM5HczD7Nb5kR-KTG" name="Page-5">
+  <diagram id="AmqmM5HczD7Nb5kR-KTG" name="WaitForPay">
     <mxGraphModel dx="2859" dy="2166" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -536,159 +536,150 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Batch-OutgoingPay" id="biKUjqRSO48FqPRMN9oG">
-    <mxGraphModel dx="3974" dy="2758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1758" dy="933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="bGyRvR7TeVLR7tkMqi8p-0" />
         <mxCell id="bGyRvR7TeVLR7tkMqi8p-1" parent="bGyRvR7TeVLR7tkMqi8p-0" />
-        <mxCell id="bGyRvR7TeVLR7tkMqi8p-2" parent="bGyRvR7TeVLR7tkMqi8p-1" style="rounded=1;whiteSpace=wrap;html=1;" value="BizTalk&lt;div&gt;Jse.Ei.Clearing.Settlement&lt;/div&gt;&lt;div&gt;Jse.Ei.Swift.Router&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="160" x="1160" y="-320" as="geometry" />
+        <mxCell id="pL5dxcd7VmEQ6hFwvYHN-0" parent="bGyRvR7TeVLR7tkMqi8p-1" style="rounded=1;whiteSpace=wrap;html=1;" value="BizTalk&lt;div&gt;Jse.Ei.Clearing.Settlement&lt;/div&gt;&lt;div&gt;Jse.Ei.Swift.Router&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="1245" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="bGyRvR7TeVLR7tkMqi8p-3" parent="bGyRvR7TeVLR7tkMqi8p-1" style="rounded=1;whiteSpace=wrap;html=1;" value="MQ" vertex="1">
-          <mxGeometry height="60" width="120" x="1440" y="-320" as="geometry" />
+        <mxCell id="pL5dxcd7VmEQ6hFwvYHN-1" parent="bGyRvR7TeVLR7tkMqi8p-1" style="rounded=1;whiteSpace=wrap;html=1;" value="MQ" vertex="1">
+          <mxGeometry height="60" width="120" x="1805" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="bGyRvR7TeVLR7tkMqi8p-4" parent="bGyRvR7TeVLR7tkMqi8p-1" style="rounded=1;whiteSpace=wrap;html=1;" value="Strate:&lt;div&gt;SWIFT Bureau&amp;nbsp;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="1640" y="-320" as="geometry" />
+        <mxCell id="pL5dxcd7VmEQ6hFwvYHN-2" parent="bGyRvR7TeVLR7tkMqi8p-1" style="rounded=1;whiteSpace=wrap;html=1;" value="Strate:&lt;div&gt;SWIFT Bureau&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="2045" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="bGyRvR7TeVLR7tkMqi8p-5" parent="bGyRvR7TeVLR7tkMqi8p-1" style="rounded=1;whiteSpace=wrap;html=1;" value="Clearing Member" vertex="1">
-          <mxGeometry height="60" width="120" x="1840" y="-320" as="geometry" />
+        <mxCell id="pL5dxcd7VmEQ6hFwvYHN-3" parent="bGyRvR7TeVLR7tkMqi8p-1" style="rounded=1;whiteSpace=wrap;html=1;" value="Clearing Member" vertex="1">
+          <mxGeometry height="60" width="120" x="2287.5" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="bGyRvR7TeVLR7tkMqi8p-6" parent="bGyRvR7TeVLR7tkMqi8p-1" style="rounded=1;whiteSpace=wrap;html=1;" value="Settlement Bank" vertex="1">
-          <mxGeometry height="60" width="120" x="2040" y="-320" as="geometry" />
+        <mxCell id="pL5dxcd7VmEQ6hFwvYHN-4" parent="bGyRvR7TeVLR7tkMqi8p-1" style="rounded=1;whiteSpace=wrap;html=1;" value="Settlement Bank" vertex="1">
+          <mxGeometry height="60" width="120" x="2482.5" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="bGyRvR7TeVLR7tkMqi8p-7" parent="bGyRvR7TeVLR7tkMqi8p-1" style="rounded=1;whiteSpace=wrap;html=1;" value="BizTalk:&lt;div&gt;BTS_SWIFTAudit&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="157.5" x="887" y="-320" as="geometry" />
+        <mxCell id="pL5dxcd7VmEQ6hFwvYHN-5" parent="bGyRvR7TeVLR7tkMqi8p-1" style="rounded=1;whiteSpace=wrap;html=1;" value="CIS:&lt;div&gt;ClearingVault&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="965" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="bGyRvR7TeVLR7tkMqi8p-8" parent="bGyRvR7TeVLR7tkMqi8p-1" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" value="" vertex="1">
-          <mxGeometry height="20" width="20" x="2355" y="666" as="geometry" />
+        <mxCell id="pL5dxcd7VmEQ6hFwvYHN-6" parent="bGyRvR7TeVLR7tkMqi8p-1" style="rounded=1;whiteSpace=wrap;html=1;" value="CIS:&lt;div&gt;Jse.Ei.Batch.PostTrade&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="162.5" x="685" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="bGyRvR7TeVLR7tkMqi8p-9" edge="1" parent="bGyRvR7TeVLR7tkMqi8p-1" source="bGyRvR7TeVLR7tkMqi8p-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bGyRvR7TeVLR7tkMqi8p-25" value="">
+        <mxCell id="pL5dxcd7VmEQ6hFwvYHN-7" edge="1" parent="bGyRvR7TeVLR7tkMqi8p-1" source="pL5dxcd7VmEQ6hFwvYHN-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pL5dxcd7VmEQ6hFwvYHN-10" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bGyRvR7TeVLR7tkMqi8p-10" edge="1" parent="bGyRvR7TeVLR7tkMqi8p-1" source="bGyRvR7TeVLR7tkMqi8p-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bGyRvR7TeVLR7tkMqi8p-51" value="">
+        <mxCell id="pL5dxcd7VmEQ6hFwvYHN-8" parent="bGyRvR7TeVLR7tkMqi8p-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Requests instructions for logical date" vertex="1">
+          <mxGeometry height="30" width="145" x="685" y="202" as="geometry" />
+        </mxCell>
+        <mxCell id="pL5dxcd7VmEQ6hFwvYHN-9" edge="1" parent="bGyRvR7TeVLR7tkMqi8p-1" source="pL5dxcd7VmEQ6hFwvYHN-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pL5dxcd7VmEQ6hFwvYHN-12" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bGyRvR7TeVLR7tkMqi8p-11" parent="bGyRvR7TeVLR7tkMqi8p-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Separates outgoing payments and incoming payments" vertex="1">
-          <mxGeometry height="30" width="166.5" x="316" y="-109" as="geometry" />
+        <mxCell id="pL5dxcd7VmEQ6hFwvYHN-10" parent="bGyRvR7TeVLR7tkMqi8p-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Returns instructions for given logical date" vertex="1">
+          <mxGeometry height="30" width="145" x="958.5" y="202" as="geometry" />
         </mxCell>
-        <mxCell id="bGyRvR7TeVLR7tkMqi8p-12" edge="1" parent="bGyRvR7TeVLR7tkMqi8p-1" source="bGyRvR7TeVLR7tkMqi8p-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="bGyRvR7TeVLR7tkMqi8p-11">
+        <mxCell id="pL5dxcd7VmEQ6hFwvYHN-11" edge="1" parent="bGyRvR7TeVLR7tkMqi8p-1" source="pL5dxcd7VmEQ6hFwvYHN-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pL5dxcd7VmEQ6hFwvYHN-15" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bGyRvR7TeVLR7tkMqi8p-13" parent="bGyRvR7TeVLR7tkMqi8p-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Separates outgoing payments and incoming payments" vertex="1">
-          <mxGeometry height="30" width="166.5" x="316" y="-173" as="geometry" />
+        <mxCell id="pL5dxcd7VmEQ6hFwvYHN-12" parent="bGyRvR7TeVLR7tkMqi8p-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Returns instructions for given logical date" vertex="1">
+          <mxGeometry height="30" width="145" x="958.5" y="257" as="geometry" />
         </mxCell>
-        <mxCell id="bGyRvR7TeVLR7tkMqi8p-14" edge="1" parent="bGyRvR7TeVLR7tkMqi8p-1" source="bGyRvR7TeVLR7tkMqi8p-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bGyRvR7TeVLR7tkMqi8p-13">
+        <mxCell id="pL5dxcd7VmEQ6hFwvYHN-13" parent="bGyRvR7TeVLR7tkMqi8p-1" style="rounded=1;whiteSpace=wrap;html=1;" value="CIS:&lt;div&gt;Jse.Ei.Clearing.Settlement&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="445" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pL5dxcd7VmEQ6hFwvYHN-14" edge="1" parent="bGyRvR7TeVLR7tkMqi8p-1" source="pL5dxcd7VmEQ6hFwvYHN-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pL5dxcd7VmEQ6hFwvYHN-17" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bGyRvR7TeVLR7tkMqi8p-15" parent="bGyRvR7TeVLR7tkMqi8p-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Returns instructions for given logical date" vertex="1">
-          <mxGeometry height="30" width="145" x="635.5" y="-173" as="geometry" />
+        <mxCell id="pL5dxcd7VmEQ6hFwvYHN-15" parent="bGyRvR7TeVLR7tkMqi8p-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Separates outgoing payments and incoming payments" vertex="1">
+          <mxGeometry height="30" width="166.5" x="685" y="257" as="geometry" />
         </mxCell>
-        <mxCell id="bGyRvR7TeVLR7tkMqi8p-16" edge="1" parent="bGyRvR7TeVLR7tkMqi8p-1" source="bGyRvR7TeVLR7tkMqi8p-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="bGyRvR7TeVLR7tkMqi8p-15">
+        <mxCell id="pL5dxcd7VmEQ6hFwvYHN-16" edge="1" parent="bGyRvR7TeVLR7tkMqi8p-1" source="pL5dxcd7VmEQ6hFwvYHN-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pL5dxcd7VmEQ6hFwvYHN-41" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bGyRvR7TeVLR7tkMqi8p-17" parent="bGyRvR7TeVLR7tkMqi8p-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Returns instructions for given logical date" vertex="1">
-          <mxGeometry height="30" width="145" x="635.5" y="-228" as="geometry" />
+        <mxCell id="pL5dxcd7VmEQ6hFwvYHN-17" parent="bGyRvR7TeVLR7tkMqi8p-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Separates outgoing payments and incoming payments" vertex="1">
+          <mxGeometry height="30" width="166.5" x="685" y="321" as="geometry" />
         </mxCell>
-        <mxCell id="bGyRvR7TeVLR7tkMqi8p-18" edge="1" parent="bGyRvR7TeVLR7tkMqi8p-1" source="bGyRvR7TeVLR7tkMqi8p-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bGyRvR7TeVLR7tkMqi8p-17">
+        <mxCell id="pL5dxcd7VmEQ6hFwvYHN-18" edge="1" parent="bGyRvR7TeVLR7tkMqi8p-1" source="pL5dxcd7VmEQ6hFwvYHN-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pL5dxcd7VmEQ6hFwvYHN-21" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bGyRvR7TeVLR7tkMqi8p-19" parent="bGyRvR7TeVLR7tkMqi8p-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Requests instructions for logical date" vertex="1">
-          <mxGeometry height="30" width="145" x="337.5" y="-228" as="geometry" />
+        <mxCell id="pL5dxcd7VmEQ6hFwvYHN-19" parent="bGyRvR7TeVLR7tkMqi8p-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Create GetSettlementInstructionsRsp" vertex="1">
+          <mxGeometry height="40" width="195" x="958.5" y="375" as="geometry" />
         </mxCell>
-        <mxCell id="bGyRvR7TeVLR7tkMqi8p-20" parent="bGyRvR7TeVLR7tkMqi8p-1" style="rounded=1;whiteSpace=wrap;html=1;" value="RTC" vertex="1">
-          <mxGeometry height="60" width="120" x="-120" y="-320" as="geometry" />
-        </mxCell>
-        <mxCell id="bGyRvR7TeVLR7tkMqi8p-21" parent="bGyRvR7TeVLR7tkMqi8p-1" style="rounded=1;whiteSpace=wrap;html=1;" value="CIS:&lt;div&gt;Jse.Ei.Clearing.Settlement&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="160" x="80" y="-320" as="geometry" />
-        </mxCell>
-        <mxCell id="bGyRvR7TeVLR7tkMqi8p-22" parent="bGyRvR7TeVLR7tkMqi8p-1" style="rounded=1;whiteSpace=wrap;html=1;" value="CIS:&lt;div&gt;Jse.Ei.Batch.PostTrade&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="162.5" x="320" y="-320" as="geometry" />
-        </mxCell>
-        <mxCell id="bGyRvR7TeVLR7tkMqi8p-23" parent="bGyRvR7TeVLR7tkMqi8p-1" style="rounded=1;whiteSpace=wrap;html=1;" value="CIS:&lt;div&gt;ClearingVault&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="642" y="-320" as="geometry" />
-        </mxCell>
-        <mxCell id="bGyRvR7TeVLR7tkMqi8p-24" edge="1" parent="bGyRvR7TeVLR7tkMqi8p-1" source="bGyRvR7TeVLR7tkMqi8p-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bGyRvR7TeVLR7tkMqi8p-27" value="">
+        <mxCell id="pL5dxcd7VmEQ6hFwvYHN-20" edge="1" parent="bGyRvR7TeVLR7tkMqi8p-1" source="pL5dxcd7VmEQ6hFwvYHN-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pL5dxcd7VmEQ6hFwvYHN-24" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bGyRvR7TeVLR7tkMqi8p-25" parent="bGyRvR7TeVLR7tkMqi8p-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Wait For Payment Notifications" vertex="1">
-          <mxGeometry height="30" width="166.5" x="316" as="geometry" />
+        <mxCell id="pL5dxcd7VmEQ6hFwvYHN-21" parent="bGyRvR7TeVLR7tkMqi8p-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="receives &amp;amp; debatches GetSettlementInstructionsRsp" vertex="1">
+          <mxGeometry height="40" width="195" x="1225" y="375" as="geometry" />
         </mxCell>
-        <mxCell id="bGyRvR7TeVLR7tkMqi8p-26" edge="1" parent="bGyRvR7TeVLR7tkMqi8p-1" source="bGyRvR7TeVLR7tkMqi8p-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bGyRvR7TeVLR7tkMqi8p-29" value="">
+        <mxCell id="pL5dxcd7VmEQ6hFwvYHN-22" edge="1" parent="bGyRvR7TeVLR7tkMqi8p-1" source="pL5dxcd7VmEQ6hFwvYHN-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pL5dxcd7VmEQ6hFwvYHN-27" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bGyRvR7TeVLR7tkMqi8p-27" parent="bGyRvR7TeVLR7tkMqi8p-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Retrieves Payment Notifications" vertex="1">
-          <mxGeometry height="30" width="166.5" x="882.5" y="-60" as="geometry" />
-        </mxCell>
-        <mxCell id="bGyRvR7TeVLR7tkMqi8p-28" edge="1" parent="bGyRvR7TeVLR7tkMqi8p-1" source="bGyRvR7TeVLR7tkMqi8p-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="bGyRvR7TeVLR7tkMqi8p-31">
+        <mxCell id="pL5dxcd7VmEQ6hFwvYHN-23" edge="1" parent="bGyRvR7TeVLR7tkMqi8p-1" source="pL5dxcd7VmEQ6hFwvYHN-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pL5dxcd7VmEQ6hFwvYHN-44" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bGyRvR7TeVLR7tkMqi8p-29" parent="bGyRvR7TeVLR7tkMqi8p-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Returns Payment Notification IDs for given logical date" vertex="1">
-          <mxGeometry height="29" width="200" x="866.25" y="67" as="geometry" />
+        <mxCell id="pL5dxcd7VmEQ6hFwvYHN-24" parent="bGyRvR7TeVLR7tkMqi8p-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="converts SettlementInstruction to pain.002" vertex="1">
+          <mxGeometry height="40" width="195" x="1225" y="476" as="geometry" />
         </mxCell>
-        <mxCell id="bGyRvR7TeVLR7tkMqi8p-30" edge="1" parent="bGyRvR7TeVLR7tkMqi8p-1" source="bGyRvR7TeVLR7tkMqi8p-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bGyRvR7TeVLR7tkMqi8p-33" value="">
+        <mxCell id="pL5dxcd7VmEQ6hFwvYHN-25" edge="1" parent="bGyRvR7TeVLR7tkMqi8p-1" source="pL5dxcd7VmEQ6hFwvYHN-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pL5dxcd7VmEQ6hFwvYHN-29" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bGyRvR7TeVLR7tkMqi8p-31" parent="bGyRvR7TeVLR7tkMqi8p-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Matches Payment notification to Settlement Instruction" vertex="1">
-          <mxGeometry height="30" width="166.5" x="316" y="67" as="geometry" />
-        </mxCell>
-        <mxCell id="bGyRvR7TeVLR7tkMqi8p-32" edge="1" parent="bGyRvR7TeVLR7tkMqi8p-1" source="bGyRvR7TeVLR7tkMqi8p-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bGyRvR7TeVLR7tkMqi8p-34" value="">
+        <mxCell id="pL5dxcd7VmEQ6hFwvYHN-26" edge="1" parent="bGyRvR7TeVLR7tkMqi8p-1" source="pL5dxcd7VmEQ6hFwvYHN-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pL5dxcd7VmEQ6hFwvYHN-37" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bGyRvR7TeVLR7tkMqi8p-33" parent="bGyRvR7TeVLR7tkMqi8p-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Stop polling for notification&lt;/div&gt;Update Processing status to SETTLED" vertex="1">
-          <mxGeometry height="40" width="186.5" x="306" y="139.5" as="geometry" />
+        <mxCell id="pL5dxcd7VmEQ6hFwvYHN-27" parent="bGyRvR7TeVLR7tkMqi8p-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="sends pain.001 to the CM via Strate&lt;div&gt;Requests MQ ack&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="195" x="1767.5" y="476" as="geometry" />
         </mxCell>
-        <mxCell id="bGyRvR7TeVLR7tkMqi8p-34" parent="bGyRvR7TeVLR7tkMqi8p-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Update Instruction Processing Status to SETTLED&lt;div&gt;CTD_SettlementInstructionLink&lt;/div&gt;" vertex="1">
-          <mxGeometry height="35" width="221.25" x="642" y="142" as="geometry" />
-        </mxCell>
-        <mxCell id="bGyRvR7TeVLR7tkMqi8p-35" edge="1" parent="bGyRvR7TeVLR7tkMqi8p-1" source="bGyRvR7TeVLR7tkMqi8p-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bGyRvR7TeVLR7tkMqi8p-48" value="">
+        <mxCell id="pL5dxcd7VmEQ6hFwvYHN-28" edge="1" parent="bGyRvR7TeVLR7tkMqi8p-1" source="pL5dxcd7VmEQ6hFwvYHN-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pL5dxcd7VmEQ6hFwvYHN-31" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bGyRvR7TeVLR7tkMqi8p-36" parent="bGyRvR7TeVLR7tkMqi8p-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Outgoing Payments" vertex="1">
-          <mxGeometry height="30" width="166.5" x="130" y="260" as="geometry" />
+        <mxCell id="pL5dxcd7VmEQ6hFwvYHN-29" parent="bGyRvR7TeVLR7tkMqi8p-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="sends&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;MQ ack to JSE&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="195" x="1767" y="607" as="geometry" />
         </mxCell>
-        <mxCell id="bGyRvR7TeVLR7tkMqi8p-37" parent="bGyRvR7TeVLR7tkMqi8p-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Create GetSettlementInstructionsRsp" vertex="1">
-          <mxGeometry height="40" width="195" x="323.25" y="321" as="geometry" />
-        </mxCell>
-        <mxCell id="bGyRvR7TeVLR7tkMqi8p-38" parent="bGyRvR7TeVLR7tkMqi8p-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="receives &amp;amp; debatches GetSettlementInstructionsRsp" vertex="1">
-          <mxGeometry height="40" width="195" x="1142.5" y="260" as="geometry" />
-        </mxCell>
-        <mxCell id="bGyRvR7TeVLR7tkMqi8p-39" parent="bGyRvR7TeVLR7tkMqi8p-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="converts SettlementInstruction to pain.001" vertex="1">
-          <mxGeometry height="41" width="195" x="1390" y="270" as="geometry" />
-        </mxCell>
-        <mxCell id="bGyRvR7TeVLR7tkMqi8p-40" parent="bGyRvR7TeVLR7tkMqi8p-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="sends secl.010 to the CM via Strate&lt;div&gt;Requests MQ ack&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="195" x="1917.5" y="321" as="geometry" />
-        </mxCell>
-        <mxCell id="bGyRvR7TeVLR7tkMqi8p-41" parent="bGyRvR7TeVLR7tkMqi8p-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="sends&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;MQ ack to JSE&lt;/span&gt;" vertex="1">
-          <mxGeometry height="40" width="195" x="1917" y="452" as="geometry" />
-        </mxCell>
-        <mxCell id="bGyRvR7TeVLR7tkMqi8p-42" parent="bGyRvR7TeVLR7tkMqi8p-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Converts&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;MQ ack to SetInstructionPending message&lt;/span&gt;" vertex="1">
-          <mxGeometry height="40" width="195" x="1375" y="452" as="geometry" />
-        </mxCell>
-        <mxCell id="bGyRvR7TeVLR7tkMqi8p-43" parent="bGyRvR7TeVLR7tkMqi8p-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Converts&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;SetInstructionPending&amp;nbsp; and sends to RTC&amp;nbsp;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="80" width="220" x="560.5" y="530" as="geometry" />
-        </mxCell>
-        <mxCell id="bGyRvR7TeVLR7tkMqi8p-44" parent="bGyRvR7TeVLR7tkMqi8p-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Sets the state of the Instruction to Pending&lt;/span&gt;" vertex="1">
-          <mxGeometry height="40" width="195" x="296.5" y="460" as="geometry" />
-        </mxCell>
-        <mxCell id="bGyRvR7TeVLR7tkMqi8p-45" parent="bGyRvR7TeVLR7tkMqi8p-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Processes the secl.010 via the SWIFT network&lt;div&gt;Relays secl.010 to the CM&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="195" x="2195" y="321" as="geometry" />
-        </mxCell>
-        <mxCell id="bGyRvR7TeVLR7tkMqi8p-46" parent="bGyRvR7TeVLR7tkMqi8p-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Processes the secl.010" vertex="1">
-          <mxGeometry height="40" width="195" x="2437.5" y="321" as="geometry" />
-        </mxCell>
-        <mxCell id="bGyRvR7TeVLR7tkMqi8p-47" edge="1" parent="bGyRvR7TeVLR7tkMqi8p-1" source="bGyRvR7TeVLR7tkMqi8p-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bGyRvR7TeVLR7tkMqi8p-37" value="">
+        <mxCell id="pL5dxcd7VmEQ6hFwvYHN-30" edge="1" parent="bGyRvR7TeVLR7tkMqi8p-1" source="pL5dxcd7VmEQ6hFwvYHN-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pL5dxcd7VmEQ6hFwvYHN-33" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bGyRvR7TeVLR7tkMqi8p-48" parent="bGyRvR7TeVLR7tkMqi8p-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Prepares incoming payments" vertex="1">
-          <mxGeometry height="30" width="166.5" x="337.5" y="259" as="geometry" />
+        <mxCell id="pL5dxcd7VmEQ6hFwvYHN-31" parent="bGyRvR7TeVLR7tkMqi8p-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Converts&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;MQ ack to SetInstructionPending message&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="195" x="1225" y="607" as="geometry" />
         </mxCell>
-        <mxCell id="bGyRvR7TeVLR7tkMqi8p-49" parent="bGyRvR7TeVLR7tkMqi8p-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Persist pain001&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;to SWIFT audit&lt;/span&gt;&lt;/div&gt;&lt;div&gt;SWIFTMXAudit&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="195" x="1375" y="177" as="geometry" />
+        <mxCell id="pL5dxcd7VmEQ6hFwvYHN-32" edge="1" parent="bGyRvR7TeVLR7tkMqi8p-1" source="pL5dxcd7VmEQ6hFwvYHN-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pL5dxcd7VmEQ6hFwvYHN-34" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bGyRvR7TeVLR7tkMqi8p-50" parent="bGyRvR7TeVLR7tkMqi8p-1" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" value="" vertex="1">
-          <mxGeometry height="20" width="20" x="2885" y="331" as="geometry" />
+        <mxCell id="pL5dxcd7VmEQ6hFwvYHN-33" parent="bGyRvR7TeVLR7tkMqi8p-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Converts&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;SetInstructionPending&amp;nbsp; and sends to RTC&amp;nbsp;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="220" x="415" y="587" as="geometry" />
         </mxCell>
-        <mxCell id="bGyRvR7TeVLR7tkMqi8p-51" parent="bGyRvR7TeVLR7tkMqi8p-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Sends GetSettlementInstructionsRsp with Incomning payments to BizTalk viz MSMQ" vertex="1">
-          <mxGeometry height="30" width="166.5" x="624.75" y="-109" as="geometry" />
+        <mxCell id="pL5dxcd7VmEQ6hFwvYHN-34" parent="bGyRvR7TeVLR7tkMqi8p-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Sets the state of the Instruction to Pending&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="195" x="170" y="519" as="geometry" />
+        </mxCell>
+        <mxCell id="pL5dxcd7VmEQ6hFwvYHN-35" parent="bGyRvR7TeVLR7tkMqi8p-1" style="rounded=1;whiteSpace=wrap;html=1;" value="RTC" vertex="1">
+          <mxGeometry height="60" width="120" x="245" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pL5dxcd7VmEQ6hFwvYHN-36" edge="1" parent="bGyRvR7TeVLR7tkMqi8p-1" source="pL5dxcd7VmEQ6hFwvYHN-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pL5dxcd7VmEQ6hFwvYHN-39" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pL5dxcd7VmEQ6hFwvYHN-37" parent="bGyRvR7TeVLR7tkMqi8p-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Processes the pain.001&amp;nbsp; via the SWIFT network&lt;div&gt;Relays pain.001 to the CM&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="195" x="2045" y="476" as="geometry" />
+        </mxCell>
+        <mxCell id="pL5dxcd7VmEQ6hFwvYHN-49" edge="1" parent="bGyRvR7TeVLR7tkMqi8p-1" source="pL5dxcd7VmEQ6hFwvYHN-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pL5dxcd7VmEQ6hFwvYHN-48" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pL5dxcd7VmEQ6hFwvYHN-39" parent="bGyRvR7TeVLR7tkMqi8p-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Processes the pain.001" vertex="1">
+          <mxGeometry height="40" width="195" x="2482.5" y="476" as="geometry" />
+        </mxCell>
+        <mxCell id="pL5dxcd7VmEQ6hFwvYHN-40" edge="1" parent="bGyRvR7TeVLR7tkMqi8p-1" source="pL5dxcd7VmEQ6hFwvYHN-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pL5dxcd7VmEQ6hFwvYHN-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pL5dxcd7VmEQ6hFwvYHN-41" parent="bGyRvR7TeVLR7tkMqi8p-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Prepares incoming payments" vertex="1">
+          <mxGeometry height="30" width="166.5" x="685" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="pL5dxcd7VmEQ6hFwvYHN-42" parent="bGyRvR7TeVLR7tkMqi8p-1" style="rounded=1;whiteSpace=wrap;html=1;" value="BizTalk:&lt;div&gt;BTS_SWIFTAudit&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1565" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pL5dxcd7VmEQ6hFwvYHN-43" edge="1" parent="bGyRvR7TeVLR7tkMqi8p-1" source="pL5dxcd7VmEQ6hFwvYHN-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pL5dxcd7VmEQ6hFwvYHN-45" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pL5dxcd7VmEQ6hFwvYHN-44" parent="bGyRvR7TeVLR7tkMqi8p-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Persist pain.001&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;to SWIFT audit&lt;/span&gt;&lt;/div&gt;&lt;div&gt;SWIFTMXAudit&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="195" x="1527.5" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="pL5dxcd7VmEQ6hFwvYHN-45" parent="bGyRvR7TeVLR7tkMqi8p-1" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="1615" y="394" as="geometry" />
+        </mxCell>
+        <mxCell id="pL5dxcd7VmEQ6hFwvYHN-48" parent="bGyRvR7TeVLR7tkMqi8p-1" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="2845" y="486" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
