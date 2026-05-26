@@ -333,7 +333,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="go6u6T0q4e15HXxYkNsE-73" parent="9pg-YyMnguM9otU3WHmV-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Stop polling for notification&lt;/div&gt;Update Instruction status to SETTLED" vertex="1">
-          <mxGeometry height="40" width="186.5" x="296" y="140" as="geometry" />
+          <mxGeometry height="40" width="186.5" x="306" y="139.5" as="geometry" />
         </mxCell>
         <mxCell id="go6u6T0q4e15HXxYkNsE-75" parent="9pg-YyMnguM9otU3WHmV-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Update Instruction status to SETTLED&lt;div&gt;CTD_SettlementInstructionLink&lt;/div&gt;" vertex="1">
           <mxGeometry height="35" width="221.25" x="642" y="142" as="geometry" />
