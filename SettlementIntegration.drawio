@@ -489,6 +489,9 @@
         <mxCell id="2OUKJAbwOXTDX70UEco6-12" edge="1" parent="1" source="2OUKJAbwOXTDX70UEco6-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="2OUKJAbwOXTDX70UEco6-11" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="V_V3azlyiJ57S5vJwgcF-2" edge="1" parent="1" source="2OUKJAbwOXTDX70UEco6-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="V_V3azlyiJ57S5vJwgcF-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="2OUKJAbwOXTDX70UEco6-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Stop polling for notification&lt;/div&gt;Update Processing status to SETTLED" vertex="1">
           <mxGeometry height="40" width="186.5" x="615.75" y="580" as="geometry" />
         </mxCell>
@@ -497,6 +500,26 @@
         </mxCell>
         <mxCell id="2OUKJAbwOXTDX70UEco6-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Update Instruction Processing Status to SETTLED&lt;div&gt;CTD_SettlementInstructionLink&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="186.5" x="1187" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="V_V3azlyiJ57S5vJwgcF-7" edge="1" parent="1" source="V_V3azlyiJ57S5vJwgcF-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="V_V3azlyiJ57S5vJwgcF-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_V3azlyiJ57S5vJwgcF-12" edge="1" parent="1" source="V_V3azlyiJ57S5vJwgcF-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="V_V3azlyiJ57S5vJwgcF-10" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="709" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V_V3azlyiJ57S5vJwgcF-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="All Payment Notifications received for all Incoming Payments?" vertex="1">
+          <mxGeometry height="120" width="261" x="578.5" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="V_V3azlyiJ57S5vJwgcF-9" edge="1" parent="1" source="V_V3azlyiJ57S5vJwgcF-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="ohC_I4tL8WQ6FyHg4gvB-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_V3azlyiJ57S5vJwgcF-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NOP[E&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="75" width="190" x="170" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="V_V3azlyiJ57S5vJwgcF-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Release Outgoing Payments" vertex="1">
+          <mxGeometry height="30" width="171" x="623.5" y="980" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
