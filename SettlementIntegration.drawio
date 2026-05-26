@@ -399,12 +399,20 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AmqmM5HczD7Nb5kR-KTG" name="Page-5">
-    <mxGraphModel dx="3193" dy="2343" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2859" dy="2166" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="LwmPrDA5cprAfE4Ml6YQ-13" edge="1" parent="1" source="ohC_I4tL8WQ6FyHg4gvB-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ohC_I4tL8WQ6FyHg4gvB-2">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2OUKJAbwOXTDX70UEco6-4" edge="1" parent="1" source="ohC_I4tL8WQ6FyHg4gvB-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ohC_I4tL8WQ6FyHg4gvB-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="100" y="370" />
+              <mxPoint x="230" y="370" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="ohC_I4tL8WQ6FyHg4gvB-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Outgoing or Incoming payments" vertex="1">
           <mxGeometry height="119" width="360" x="-80" y="130" as="geometry" />
@@ -449,7 +457,7 @@
           <mxGeometry height="60" width="120" x="942" y="-180" as="geometry" />
         </mxCell>
         <mxCell id="e7NKBQ5e5cFfcBVWUE8n-15" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="189" width="1176.25" x="220" y="310" as="geometry" />
+          <mxGeometry height="190" width="1176.25" x="209" y="310" as="geometry" />
         </mxCell>
         <mxCell id="ohC_I4tL8WQ6FyHg4gvB-3" parent="e7NKBQ5e5cFfcBVWUE8n-15" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" value="Outgoing Payments" vertex="1">
           <mxGeometry height="90" width="270" y="20" as="geometry" />
@@ -459,6 +467,9 @@
         </mxCell>
         <mxCell id="MnSclvtElp-FcRIuu_Hu-2" parent="e7NKBQ5e5cFfcBVWUE8n-15" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Polls for Payment Notification messages (MT900, MT910, camt.054)" vertex="1">
           <mxGeometry height="30" width="166.5" x="993" as="geometry" />
+        </mxCell>
+        <mxCell id="2OUKJAbwOXTDX70UEco6-5" edge="1" parent="e7NKBQ5e5cFfcBVWUE8n-15" source="MnSclvtElp-FcRIuu_Hu-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="2OUKJAbwOXTDX70UEco6-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MnSclvtElp-FcRIuu_Hu-3" parent="e7NKBQ5e5cFfcBVWUE8n-15" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Returns Payment Notification IDs for given logical date" vertex="1">
           <mxGeometry height="29" width="200" x="976.25" y="160" as="geometry" />
@@ -471,6 +482,21 @@
         </mxCell>
         <mxCell id="t38LohLaBHvWNECzfJor-2" edge="1" parent="e7NKBQ5e5cFfcBVWUE8n-15" source="MnSclvtElp-FcRIuu_Hu-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MnSclvtElp-FcRIuu_Hu-3">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2OUKJAbwOXTDX70UEco6-1" parent="e7NKBQ5e5cFfcBVWUE8n-15" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Matches Payment notification to Settlement Instruction" vertex="1">
+          <mxGeometry height="30" width="166.5" x="416.75" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="2OUKJAbwOXTDX70UEco6-12" edge="1" parent="1" source="2OUKJAbwOXTDX70UEco6-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="2OUKJAbwOXTDX70UEco6-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2OUKJAbwOXTDX70UEco6-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Stop polling for notification&lt;/div&gt;Update Processing status to SETTLED" vertex="1">
+          <mxGeometry height="40" width="186.5" x="615.75" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="2OUKJAbwOXTDX70UEco6-10" edge="1" parent="1" source="2OUKJAbwOXTDX70UEco6-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="2OUKJAbwOXTDX70UEco6-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2OUKJAbwOXTDX70UEco6-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Update Instruction Processing Status to SETTLED&lt;div&gt;CTD_SettlementInstructionLink&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="186.5" x="1187" y="580" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
