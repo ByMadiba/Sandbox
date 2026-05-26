@@ -162,7 +162,7 @@
         <mxCell id="bEC8oE7Xt8TAvtwxJgBm-18" edge="1" parent="1" source="bEC8oE7Xt8TAvtwxJgBm-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bEC8oE7Xt8TAvtwxJgBm-17" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bEC8oE7Xt8TAvtwxJgBm-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="converts SettlementInstruction to secl.010" vertex="1">
+        <mxCell id="bEC8oE7Xt8TAvtwxJgBm-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="converts SettlementInstruction to secl.010&lt;div&gt;Persists to SWIFT audit&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="195" x="440" y="402" as="geometry" />
         </mxCell>
         <mxCell id="bEC8oE7Xt8TAvtwxJgBm-20" edge="1" parent="1" source="bEC8oE7Xt8TAvtwxJgBm-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bEC8oE7Xt8TAvtwxJgBm-19" value="">
@@ -190,7 +190,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bEC8oE7Xt8TAvtwxJgBm-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Converts&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;SetInstructionPending&amp;nbsp; and sends to RTC&amp;nbsp;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="80" width="220" x="-280" y="459" as="geometry" />
+          <mxGeometry height="80" width="220" x="-310" y="459" as="geometry" />
         </mxCell>
         <mxCell id="bEC8oE7Xt8TAvtwxJgBm-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Sets the state of the Instruction to Pending&lt;/span&gt;" vertex="1">
           <mxGeometry height="40" width="195" x="-555" y="479" as="geometry" />
