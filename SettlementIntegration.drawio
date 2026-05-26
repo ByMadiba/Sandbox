@@ -459,7 +459,7 @@
         <mxCell id="e7NKBQ5e5cFfcBVWUE8n-15" connectable="0" parent="1" style="group" value="" vertex="1">
           <mxGeometry height="190" width="1176.25" x="209" y="310" as="geometry" />
         </mxCell>
-        <mxCell id="ohC_I4tL8WQ6FyHg4gvB-3" parent="e7NKBQ5e5cFfcBVWUE8n-15" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" value="Outgoing Payments" vertex="1">
+        <mxCell id="ohC_I4tL8WQ6FyHg4gvB-3" parent="e7NKBQ5e5cFfcBVWUE8n-15" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" value="Hold Outgoing Payments" vertex="1">
           <mxGeometry height="90" width="270" y="20" as="geometry" />
         </mxCell>
         <mxCell id="ohC_I4tL8WQ6FyHg4gvB-4" parent="e7NKBQ5e5cFfcBVWUE8n-15" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" value="Wait For Payment Notifications" vertex="1">
@@ -501,25 +501,36 @@
         <mxCell id="2OUKJAbwOXTDX70UEco6-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Update Instruction Processing Status to SETTLED&lt;div&gt;CTD_SettlementInstructionLink&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="186.5" x="1187" y="580" as="geometry" />
         </mxCell>
-        <mxCell id="V_V3azlyiJ57S5vJwgcF-7" edge="1" parent="1" source="V_V3azlyiJ57S5vJwgcF-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="V_V3azlyiJ57S5vJwgcF-3">
+        <mxCell id="V_V3azlyiJ57S5vJwgcF-14" edge="1" parent="1" source="V_V3azlyiJ57S5vJwgcF-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="V_V3azlyiJ57S5vJwgcF-13" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V_V3azlyiJ57S5vJwgcF-12" edge="1" parent="1" source="V_V3azlyiJ57S5vJwgcF-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="V_V3azlyiJ57S5vJwgcF-10" value="">
+        <mxCell id="V_V3azlyiJ57S5vJwgcF-15" edge="1" parent="1" source="V_V3azlyiJ57S5vJwgcF-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="709" y="930" as="targetPoint" />
+            <mxPoint x="330" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="V_V3azlyiJ57S5vJwgcF-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="All Payment Notifications received for all Incoming Payments?" vertex="1">
           <mxGeometry height="120" width="261" x="578.5" y="730" as="geometry" />
         </mxCell>
-        <mxCell id="V_V3azlyiJ57S5vJwgcF-9" edge="1" parent="1" source="V_V3azlyiJ57S5vJwgcF-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="ohC_I4tL8WQ6FyHg4gvB-4">
+        <mxCell id="V_V3azlyiJ57S5vJwgcF-17" edge="1" parent="1" source="V_V3azlyiJ57S5vJwgcF-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="V_V3azlyiJ57S5vJwgcF-19" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1410" y="875" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V_V3azlyiJ57S5vJwgcF-13" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" value="Release Outgoing Payments" vertex="1">
+          <mxGeometry height="70" width="300" x="880" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="V_V3azlyiJ57S5vJwgcF-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Text" vertex="1">
+          <mxGeometry height="30" width="60" x="830" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="V_V3azlyiJ57S5vJwgcF-21" edge="1" parent="1" source="V_V3azlyiJ57S5vJwgcF-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="V_V3azlyiJ57S5vJwgcF-20" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V_V3azlyiJ57S5vJwgcF-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NOP[E&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="75" width="190" x="170" y="740" as="geometry" />
+        <mxCell id="V_V3azlyiJ57S5vJwgcF-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Transform to pain.001" vertex="1">
+          <mxGeometry height="30" width="180" x="1453.25" y="858" as="geometry" />
         </mxCell>
-        <mxCell id="V_V3azlyiJ57S5vJwgcF-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Release Outgoing Payments" vertex="1">
-          <mxGeometry height="30" width="171" x="623.5" y="980" as="geometry" />
+        <mxCell id="V_V3azlyiJ57S5vJwgcF-20" parent="1" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="1793.25" y="863" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
